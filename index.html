@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head >
+	<meta charset="UTF-8" >
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" >
+	<title >Recreated Task Manager</title >
+	<link href="styles.css" rel="stylesheet" >
+</head >
+<body >
+<header class="header" >
+	<img alt="Logo" class="header-logo" src="logo.svg" >
+</header >
+<div class="app-container" >
+	<form class="form-container" >
+		<div class="input-wrapper" id="input-wrapper" >
+			<label class="task-input-label" for="task-input" id="task-input-label" ></label >
+			<input class="task-input" id="task-input" placeholder="Adicione uma nova tarefa" type="text" >
+		</div >
+		<button class="button with-icon" id="addTaskButton" >
+			Criar
+			<svg class="StyledIconBase-sc-ea9ulj-0 hRnJPC" fill="currentColor" focusable="false" height="48" role="img"
+			     viewBox="0 0 16 16"
+			     width="48" xmlns="http://www.w3.org/2000/svg" ><title >PlusCircle icon</title >
+				<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" ></path >
+				<path
+					d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" ></path >
+			</svg >
+		</button >
+	
+	</form >
+	
+	<section class="summary" id="summary-container" ></section >
+	
+	<section id="task-list-container" ></section >
+	
+	<section class="empty" id="empty-container" ></section >
+
+</div >
+<script src="script.js" ></script >
+</body >
+</html >
